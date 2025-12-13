@@ -1,0 +1,20 @@
+[project]
+name = "hw12"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "transformers==4.31.0",
+    "accelerate==0.21.0",
+    "sentencepiece==0.1.99",
+    "tokenizers==0.13.3",
+    "datasets==2.14.4",
+    "tqdm",
+    "zstandard",
+    "pyarrow>=8.0.0,<15.0.0",
+    "numpy<2.0",
+    "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
+    "fsspec==2023.9.2",
+    "huggingface-hub>=0.16.0,<0.20.0",
+]
